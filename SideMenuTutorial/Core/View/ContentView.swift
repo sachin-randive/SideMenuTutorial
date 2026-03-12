@@ -14,19 +14,19 @@ struct ContentView: View {
         NavigationStack {
             ZStack {
                 TabView(selection: $selectedTag) {
-                    Text("Dashboard")
+                    Text("Dashboard Page")
                         .tag(0)
                     
-                    Text("Performance")
+                    Text("Performance Page")
                         .tag(1)
                     
-                    Text("Profile")
+                    Text("Profile Page")
                         .tag(2)
                     
-                    Text("Search")
+                    Text("Search Page")
                         .tag(3)
                     
-                    Text("Notification")
+                    Text("Notification Page")
                         .tag(4)
                 }
                 
